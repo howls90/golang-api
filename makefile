@@ -24,4 +24,4 @@
     
     
     docker-build:
-            docker run --rm -it -v "$(GOPATH)":/go -w /go/src/bitbucket.org/rsohlich/makepost golang:latest go build -o "$(BINARY_UNIX)" -v
+            
